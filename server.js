@@ -17,8 +17,8 @@ mongoose
   .catch((err) => console.error("❌ MongoDB connection error:", err));
 
 
-const profileRoutes = require("./routes/ProfileRoutes");
-app.use("/profile", profileRoutes);
+const ProfileRoutes = require("./routes/ProfileRoutes");
+app.use("/Profile", ProfileRoutes);
 
 
 app.get("/", (req, res) => {
