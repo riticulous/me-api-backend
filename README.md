@@ -61,26 +61,7 @@ Search
 curl "https://me-api-backend.onrender.com/profile/search?q=MongoDB"
 
 Architecture
-me-api-playground/
-│
-├── backend/                  # Node.js + Express + MongoDB API
-│   ├── server.js              # Entry point
-│   ├── routes/                # Express route handlers
-│   │   └── ProfileRoutes.js
-│   ├── models/                # Mongoose schemas
-│   │   └── Profile.js
-│   ├── package.json
-│   └── .env                   # (local only, excluded from git)
-│
-├── frontend/                 # React app (Vite or CRA)
-│   ├── src/                   # React components
-│   │   └── App.js
-│   ├── public/
-│   ├── package.json
-│   └── .env                   # REACT_APP_API_URL (points to backend)
-│
-├── README.md                  # Project overview & setup
-└── schema.md                  # Documentation of Profile schema
+<img width="263" height="497" alt="Screenshot 2025-08-31 at 10 06 17 PM" src="https://github.com/user-attachments/assets/92e94373-e7e8-4789-95e2-2b36cac40c82" />
 
 
 
